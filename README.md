@@ -35,6 +35,7 @@ returns a valid concurrent map that behaves similarly to a ConcurrentHashMap.
 # ConcurrentLinkedHashmap
 1. [用法](https://code.google.com/p/concurrentlinkedhashmap/wiki/ExampleUsage)
 2. [源码解析](http://janeky.iteye.com/blog/1534352)
+
 ## Usage exmaple
 ```java
 ConcurrentMap<String, String> cache = new ConcurrentLinkedHashMap.Builder<String, String>()
@@ -50,9 +51,9 @@ ConcurrentMap<String, String> cache = new ConcurrentLinkedHashMap.Builder<String
 
 ## maven 依赖
 ```xml
-				<dependency>
-            <groupId>com.googlecode.concurrentlinkedhashmap</groupId>
-            <artifactId>concurrentlinkedhashmap-lru</artifactId>
-            <version>1.4.2</version>
-        </dependency>
+<dependency>
+		<groupId>com.googlecode.concurrentlinkedhashmap</groupId>
+    <artifactId>concurrentlinkedhashmap-lru</artifactId>
+    <version>1.4.2</version>
+</dependency>
 ```
