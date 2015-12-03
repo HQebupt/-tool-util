@@ -52,7 +52,7 @@ ConcurrentMap<String, String> cache = new ConcurrentLinkedHashMap.Builder<String
 ## maven 依赖
 ```xml
 <dependency>
-		<groupId>com.googlecode.concurrentlinkedhashmap</groupId>
+    <groupId>com.googlecode.concurrentlinkedhashmap</groupId>
     <artifactId>concurrentlinkedhashmap-lru</artifactId>
     <version>1.4.2</version>
 </dependency>
