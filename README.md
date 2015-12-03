@@ -57,3 +57,6 @@ ConcurrentMap<String, String> cache = new ConcurrentLinkedHashMap.Builder<String
     <version>1.4.2</version>
 </dependency>
 ```
+
+# ThreadFactory
+封装一次线程,添加线程的额外属性,比如是否是守护线程, 如果是守护线程会随着main线程的结束而立刻结束.详细见`thread.ThreadFactoryTest`
