@@ -58,10 +58,17 @@ ConcurrentMap<String, String> cache = new ConcurrentLinkedHashMap.Builder<String
 </dependency>
 ```
 
+
 # ThreadFactory
 封装一次线程,添加线程的额外属性,比如是否是守护线程, 如果是守护线程会随着main线程的结束而立刻结束.详细见`thread.ThreadFactoryTest`
+
 
 # 自动过期的Map实现
 `TimeCacheMap`和`AutoExpiredMap`哪个更加高效呢?
 
 [程序完整性的钩子函数](http://www.cnblogs.com/baibaluo/p/3185925.html)
+
+
+# ConcurrentSkipListMap
+- 可用于并发访问的有序Map, 类似`TreeMap`(非线程安全)
+- 跳表的实现
